@@ -1,0 +1,128 @@
+* {
+  font-size: 16px;
+  font-family: monospace;
+  margin: 0 auto;
+  color: #191919;
+
+}
+
+#bot-container {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 20px 20px 30px 20px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  background: #FFFFFF;
+  box-shadow: 7px 6px 13px 0 rgba(0,0,0,0.50);
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 41px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#tristan-bot {
+  margin: 10px 0px 25px 0px;
+}
+
+#tristan > svg, #tristan > h2 {
+  display: inline-block;
+}
+
+#tristan > h2 {
+  font-size: 22px;
+  color: #CE3434; /*red*/
+  font-weight: normal;
+  max-width: 90px;
+  vertical-align: top;
+  margin: 10px 0 0 4px;
+}
+
+#bot-talks, #you-talk {
+  background-color: #F0F0F0; /*light grey*/
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+
+#bot-talks > p, textarea {
+  margin: 0 19px 0 19px;
+  font-size: 18px;
+  line-height: 26px;
+  display: block;
+  border:none;
+  background-color: transparent;
+}
+
+#bot-talks > p {
+  margin-bottom: 5px;
+}
+
+p#yellow.p-color {
+  color: rgb(189, 189, 21) !important;
+  text-shadow: 0 1px 0 #FFF;
+}
+
+p#blue.p-color {
+  color: rgb(77, 178, 255) !important;
+  text-shadow: 0 1px 0 #FFF;
+}
+
+p#green.p-color  {
+  color: rgb(47, 251, 101) !important;
+  text-shadow: 0 1px 0 #FFF;
+}
+
+p#purple.p-color {
+  color: rgb(206, 122, 249) !important;
+  text-shadow: 0 1px 0 #FFF;
+}
+
+p#orange.p-color  {
+  color: rgb(245, 159, 83) !important;
+  text-shadow: 0 1px 0 #FFF;
+}
+
+
+#fail {
+  display: none;
+  margin-top: 10px;
+}
+
+textarea {
+  white-space: pre-wrap;
+  resize: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+button {
+  margin-top: 13px;
+  float: right;
+  background: #FFFFFF;
+  border: 1px solid #191919;
+  border-radius: 3px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #CE3434; /*red*/
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}
+
+
+#bye-bye {
+  margin-top: 20px;
+}
